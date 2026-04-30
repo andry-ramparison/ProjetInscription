@@ -1,0 +1,9 @@
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/QtInscription.dir
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/install.dir
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/QtInscription_autogen_timestamp_deps.dir
+/home/parson/QtInscription/build/Desktop-Debug/CMakeFiles/QtInscription_autogen.dir

@@ -1,0 +1,10 @@
+# ninja log v5
+3	376	1777558663194290447	QtInscription_autogen/timestamp	87200b30a3a585d4
+3	376	1777558663194290447	QtInscription_autogen/mocs_compilation.cpp	87200b30a3a585d4
+3	376	1777558663194290447	/home/parson/QtInscription/build/QtInscription_autogen/timestamp	87200b30a3a585d4
+3	376	1777558663194290447	/home/parson/QtInscription/build/QtInscription_autogen/mocs_compilation.cpp	87200b30a3a585d4
+377	1982	1777558664804300653	CMakeFiles/QtInscription.dir/personne.cpp.o	286a5e5b0c96bbbc
+376	3531	1777558666352327493	CMakeFiles/QtInscription.dir/main.cpp.o	897335873e6d4d9d
+376	3586	1777558666404359420	CMakeFiles/QtInscription.dir/QtInscription_autogen/mocs_compilation.cpp.o	41571631f4e6c70d
+376	3819	1777558666639332177	CMakeFiles/QtInscription.dir/mainwindow.cpp.o	d20f4c197575d1d9
+3819	4136	1777558666959371342	QtInscription	c3aec7ec19757e7

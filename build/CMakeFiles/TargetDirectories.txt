@@ -1,0 +1,9 @@
+/home/parson/QtInscription/build/CMakeFiles/QtInscription.dir
+/home/parson/QtInscription/build/CMakeFiles/edit_cache.dir
+/home/parson/QtInscription/build/CMakeFiles/rebuild_cache.dir
+/home/parson/QtInscription/build/CMakeFiles/list_install_components.dir
+/home/parson/QtInscription/build/CMakeFiles/install.dir
+/home/parson/QtInscription/build/CMakeFiles/install/local.dir
+/home/parson/QtInscription/build/CMakeFiles/install/strip.dir
+/home/parson/QtInscription/build/CMakeFiles/QtInscription_autogen_timestamp_deps.dir
+/home/parson/QtInscription/build/CMakeFiles/QtInscription_autogen.dir

@@ -1,52 +1,79 @@
 # QtInscription
 
-QtInscription est une petite application de bureau developpee avec Qt Widgets. Elle permet de gerer une liste d'inscriptions en saisissant un nom et un age, puis en ajoutant, supprimant et copiant des elements depuis l'interface.
+QtInscription est une application de bureau réalisée avec Qt Widgets pour gérer une liste d'inscriptions étudiantes. L'interface permet de saisir les informations d'une personne, de les afficher dans un tableau, de filtrer la liste et de conserver les données dans un fichier JSON local.
 
-## Fonctionnalites
+## Fonctionnalités
 
-- Ajout d'une personne avec un nom et un age
-- Affichage de la liste des inscrits dans une vue personnalisee
-- Suppression d'un inscrit via un bouton dedie
-- Copie de l'element selectionne vers le presse-papiers
-- Zone laterale pour visualiser le contenu du presse-papiers
-- Interface sombre avec styles Qt personnalises
+- Formulaire d'ajout avec nom, âge, sexe et niveau
+- Tableau récapitulatif des personnes inscrites
+- Suppression d'une ligne depuis le tableau
+- Recherche simple sur le contenu affiché
+- Sauvegarde et chargement automatiques via `inscrits.json`
+- Thème visuel chargé depuis les ressources Qt
 
-## Structure du projet
+## Arborescence
 
-- `main.cpp`: point d'entree de l'application
-- `mainwindow.h` / `mainwindow.cpp`: fenetre principale et logique de l'interface
-- `personne.h` / `personne.cpp`: classe simple representant une personne inscrite
-- `CMakeLists.txt`: configuration de build CMake pour Qt 5 ou Qt 6
+```text
+QtInscription/
+├── CMakeLists.txt
+├── include/
+│   ├── mainwindow.h
+│   ├── models/
+│   │   ├── inscription.h
+│   │   └── personne.h
+│   └── widgets/
+│       ├── formwidget.h
+│       └── searchwidget.h
+├── resources/
+│   ├── resources.qrc
+│   └── styles/
+│       └── style.qss
+└── src/
+    ├── main.cpp
+    ├── mainwindow.cpp
+    ├── models/
+    │   ├── inscription.cpp
+    │   └── personne.cpp
+    └── widgets/
+        ├── formwidget.cpp
+        └── searchwidget.cpp
+```
 
-## Principe de fonctionnement
+## Organisation du code
 
-1. L'utilisateur saisit un nom et un age.
-2. Le bouton `Inscrire` ajoute la personne a la liste.
-3. Chaque ligne affiche le nom, l'age et un bouton de suppression.
-4. Le bouton `Copier` place dans le presse-papiers le texte de l'element selectionne.
-5. Le bouton `Coller` lit le contenu du presse-papiers et l'ajoute a la liste visuelle.
-
-## Pre-requis
-
-- CMake 3.5 ou superieur
-- Qt 5 ou Qt 6 avec le module `Widgets`
-- Un compilateur C++17
+- `src/main.cpp` initialise l'application Qt et charge la feuille de style embarquée
+- `src/mainwindow.cpp` contient la fenêtre principale, le tableau et la logique d'interaction
+- `src/widgets/formwidget.cpp` gère le formulaire d'inscription
+- `src/widgets/searchwidget.cpp` expose le champ de recherche
+- `src/models/personne.cpp` définit le modèle de données d'une personne
+- `src/models/inscription.cpp` gère la liste interne, la sérialisation JSON et le chargement au démarrage
+- `resources/resources.qrc` embarque les ressources Qt dans l'exécutable
 
 ## Compilation
 
-### Avec CMake
+### Prérequis
+
+- CMake 3.5 ou supérieur
+- Qt 5 ou Qt 6 avec le module `Widgets`
+- Un compilateur C++17
+
+### Génération et build
 
 ```bash
 cmake -S . -B build
 cmake --build build
 ```
 
-### Execution
+### Exécution
 
-Une fois la compilation terminee, lancez l'executable genere par CMake dans le dossier `build`.
+Lancez ensuite l'exécutable généré dans le dossier `build`.
+
+## Données locales
+
+L'application enregistre les inscriptions dans un fichier `inscrits.json` créé dans le répertoire d'exécution. Si vous lancez le programme depuis un dossier différent, le fichier sera créé à cet endroit.
 
 ## Notes
 
-- L'application stocke les inscriptions dans une liste interne `QList<Personne>`.
-- La suppression retire a la fois l'element de l'interface et l'entree correspondante dans la liste interne.
-- L'interface utilise un `QDockWidget` pour afficher le panneau clipboard.
+- La feuille de style est chargée depuis `:/style.qss`
+- Les données sont sauvegardées au format JSON pour rester lisibles et faciles à réutiliser
+- La table affiche les inscriptions avec une action de suppression par ligne

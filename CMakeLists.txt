@@ -13,17 +13,24 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets)
 
 set(PROJECT_SOURCES
-        main.cpp
-        mainwindow.cpp
-        mainwindow.h
-
+    src/main.cpp
+    src/mainwindow.cpp
+    src/models/personne.cpp
+    src/models/inscription.cpp
+    src/widgets/formwidget.cpp
+    src/widgets/searchwidget.cpp
+    include/mainwindow.h
+    include/models/personne.h
+    include/models/inscription.h
+    include/widgets/formwidget.h
+    include/widgets/searchwidget.h
+    resources/resources.qrc
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(QtInscription
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        personne.h personne.cpp
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET QtInscription APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR
@@ -42,6 +49,12 @@ else()
         )
     endif()
 endif()
+
+target_include_directories(QtInscription PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/models
+    ${CMAKE_CURRENT_SOURCE_DIR}/include/widgets
+)
 
 target_link_libraries(QtInscription PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 

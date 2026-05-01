@@ -1,0 +1,22 @@
+QMainWindow {
+    background-color: #1e1e2f;
+}
+
+QLineEdit, QSpinBox, QComboBox {
+    background-color: #2c2c3e;
+    color: white;
+    border-radius: 6px;
+    padding: 5px;
+}
+
+QPushButton {
+    background-color: #3a7afe;
+    color: white;
+    border-radius: 6px;
+    padding: 6px;
+}
+
+QListWidget {
+    background-color: #2c2c3e;
+    color: white;
+}

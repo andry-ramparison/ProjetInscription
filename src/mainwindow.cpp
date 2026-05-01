@@ -25,7 +25,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     table = new QTableWidget;
 
-    // 🔥 TABLE CONFIG
+    // TABLE CONFIG
     table->setColumnCount(5);
     table->setHorizontalHeaderLabels(
         {"Nom", "Âge", "Sexe", "Niveau", "Action"}

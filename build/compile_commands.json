@@ -1,26 +1,50 @@
 [
 {
   "directory": "/home/parson/QtInscription/build",
-  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/QtInscription_autogen/mocs_compilation.cpp.o -c /home/parson/QtInscription/build/QtInscription_autogen/mocs_compilation.cpp",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -I/home/parson/QtInscription/include -I/home/parson/QtInscription/include/models -I/home/parson/QtInscription/include/widgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/QtInscription_autogen/mocs_compilation.cpp.o -c /home/parson/QtInscription/build/QtInscription_autogen/mocs_compilation.cpp",
   "file": "/home/parson/QtInscription/build/QtInscription_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/QtInscription.dir/QtInscription_autogen/mocs_compilation.cpp.o"
 },
 {
   "directory": "/home/parson/QtInscription/build",
-  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/main.cpp.o -c /home/parson/QtInscription/main.cpp",
-  "file": "/home/parson/QtInscription/main.cpp",
-  "output": "CMakeFiles/QtInscription.dir/main.cpp.o"
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -I/home/parson/QtInscription/include -I/home/parson/QtInscription/include/models -I/home/parson/QtInscription/include/widgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/src/main.cpp.o -c /home/parson/QtInscription/src/main.cpp",
+  "file": "/home/parson/QtInscription/src/main.cpp",
+  "output": "CMakeFiles/QtInscription.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/parson/QtInscription/build",
-  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/mainwindow.cpp.o -c /home/parson/QtInscription/mainwindow.cpp",
-  "file": "/home/parson/QtInscription/mainwindow.cpp",
-  "output": "CMakeFiles/QtInscription.dir/mainwindow.cpp.o"
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -I/home/parson/QtInscription/include -I/home/parson/QtInscription/include/models -I/home/parson/QtInscription/include/widgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/src/mainwindow.cpp.o -c /home/parson/QtInscription/src/mainwindow.cpp",
+  "file": "/home/parson/QtInscription/src/mainwindow.cpp",
+  "output": "CMakeFiles/QtInscription.dir/src/mainwindow.cpp.o"
 },
 {
   "directory": "/home/parson/QtInscription/build",
-  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/personne.cpp.o -c /home/parson/QtInscription/personne.cpp",
-  "file": "/home/parson/QtInscription/personne.cpp",
-  "output": "CMakeFiles/QtInscription.dir/personne.cpp.o"
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -I/home/parson/QtInscription/include -I/home/parson/QtInscription/include/models -I/home/parson/QtInscription/include/widgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/src/models/personne.cpp.o -c /home/parson/QtInscription/src/models/personne.cpp",
+  "file": "/home/parson/QtInscription/src/models/personne.cpp",
+  "output": "CMakeFiles/QtInscription.dir/src/models/personne.cpp.o"
+},
+{
+  "directory": "/home/parson/QtInscription/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -I/home/parson/QtInscription/include -I/home/parson/QtInscription/include/models -I/home/parson/QtInscription/include/widgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/src/models/inscription.cpp.o -c /home/parson/QtInscription/src/models/inscription.cpp",
+  "file": "/home/parson/QtInscription/src/models/inscription.cpp",
+  "output": "CMakeFiles/QtInscription.dir/src/models/inscription.cpp.o"
+},
+{
+  "directory": "/home/parson/QtInscription/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -I/home/parson/QtInscription/include -I/home/parson/QtInscription/include/models -I/home/parson/QtInscription/include/widgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/src/widgets/formwidget.cpp.o -c /home/parson/QtInscription/src/widgets/formwidget.cpp",
+  "file": "/home/parson/QtInscription/src/widgets/formwidget.cpp",
+  "output": "CMakeFiles/QtInscription.dir/src/widgets/formwidget.cpp.o"
+},
+{
+  "directory": "/home/parson/QtInscription/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -I/home/parson/QtInscription/include -I/home/parson/QtInscription/include/models -I/home/parson/QtInscription/include/widgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/src/widgets/searchwidget.cpp.o -c /home/parson/QtInscription/src/widgets/searchwidget.cpp",
+  "file": "/home/parson/QtInscription/src/widgets/searchwidget.cpp",
+  "output": "CMakeFiles/QtInscription.dir/src/widgets/searchwidget.cpp.o"
+},
+{
+  "directory": "/home/parson/QtInscription/build",
+  "command": "/usr/bin/clang++-18 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/parson/QtInscription/build/QtInscription_autogen/include -I/home/parson/QtInscription/include -I/home/parson/QtInscription/include/models -I/home/parson/QtInscription/include/widgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -g -std=gnu++17 -fPIC -o CMakeFiles/QtInscription.dir/QtInscription_autogen/3YJK5W5UP7/qrc_resources.cpp.o -c /home/parson/QtInscription/build/QtInscription_autogen/3YJK5W5UP7/qrc_resources.cpp",
+  "file": "/home/parson/QtInscription/build/QtInscription_autogen/3YJK5W5UP7/qrc_resources.cpp",
+  "output": "CMakeFiles/QtInscription.dir/QtInscription_autogen/3YJK5W5UP7/qrc_resources.cpp.o"
 }
 ]
